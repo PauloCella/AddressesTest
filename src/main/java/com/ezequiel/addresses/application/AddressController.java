@@ -4,7 +4,7 @@ import com.ezequiel.addresses.domain.Address;
 import com.ezequiel.addresses.domain.AddressService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.*;   
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 import javax.validation.Valid;
@@ -83,9 +83,9 @@ public class AddressController {
 
 
     @GetMapping("/search")
-    public ResponseEntity<List<AddressResponse>> findAddressByStreetName(@RequestParam(value = "streeatName") String streeatName) {
+    public ResponseEntity<List<AddressResponse>> findAddressByStreetName(@RequestParam(value = "streetName") String streetName) {
         List<AddressResponse> responseList = addressService
-                .findAddressesByStreetName(streeatName)
+                .findAddressesByStreetName(streetName)
                 .stream()
                 .map(addressMapper::createAddressResponse)
                 .collect(Collectors.toList());

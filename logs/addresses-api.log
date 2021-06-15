@@ -48,3 +48,119 @@
 2021-06-15 08:11:11.767  WARN 3488 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 2021-06-15 08:11:12.371  INFO 3488 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/addresses-api'
 2021-06-15 08:11:12.381  INFO 3488 --- [main] c.e.addresses.AdressesApplication        : Started AdressesApplication in 5.631 seconds (JVM running for 6.075)
+2021-06-15 08:21:27.285  INFO 9676 --- [main] c.e.addresses.AdressesApplication        : Starting AdressesApplication using Java 1.8.0_201-1-ojdkbuild on LAPTOP-RSGLUIAP with PID 9676 (D:\Estudos\Spring\Treinamento Ezequiel\addresses\target\classes started by paulo in D:\Estudos\Spring\Treinamento Ezequiel\addresses)
+2021-06-15 08:21:27.287  INFO 9676 --- [main] c.e.addresses.AdressesApplication        : No active profile set, falling back to default profiles: default
+2021-06-15 08:21:28.261  INFO 9676 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-15 08:21:28.340  INFO 9676 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 69 ms. Found 1 JPA repository interfaces.
+2021-06-15 08:21:29.435  INFO 9676 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-06-15 08:21:29.449  INFO 9676 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-15 08:21:29.449  INFO 9676 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-15 08:21:29.550  INFO 9676 --- [main] o.a.c.c.C.[.[.[/addresses-api]           : Initializing Spring embedded WebApplicationContext
+2021-06-15 08:21:29.550  INFO 9676 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2185 ms
+2021-06-15 08:21:29.886  INFO 9676 --- [main] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 7.7.3 by Redgate
+2021-06-15 08:21:30.208  INFO 9676 --- [main] o.f.c.i.database.base.DatabaseType       : Database: jdbc:postgresql://localhost:5432/addresses (PostgreSQL 12.3)
+2021-06-15 08:21:30.285  INFO 9676 --- [main] o.f.core.internal.command.DbValidate     : Successfully validated 1 migration (execution time 00:00.038s)
+2021-06-15 08:21:30.297  INFO 9676 --- [main] o.f.core.internal.command.DbMigrate      : Current version of schema "public": 1.0.0.1
+2021-06-15 08:21:30.298  INFO 9676 --- [main] o.f.core.internal.command.DbMigrate      : Schema "public" is up to date. No migration necessary.
+2021-06-15 08:21:30.323  INFO 9676 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-06-15 08:21:30.394  INFO 9676 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-06-15 08:21:30.505  INFO 9676 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-15 08:21:30.585  INFO 9676 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-06-15 08:21:30.766  INFO 9676 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-15 08:21:30.899  INFO 9676 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2021-06-15 08:21:31.523  INFO 9676 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-15 08:21:31.533  INFO 9676 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-15 08:21:32.361  WARN 9676 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-15 08:21:33.019  INFO 9676 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/addresses-api'
+2021-06-15 08:21:33.031  INFO 9676 --- [main] c.e.addresses.AdressesApplication        : Started AdressesApplication in 6.329 seconds (JVM running for 6.744)
+2021-06-15 08:22:29.777  INFO 9676 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/addresses-api]           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-15 08:22:29.777  INFO 9676 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-15 08:22:29.778  INFO 9676 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-06-15 08:22:29.946  WARN 9676 --- [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<?> com.ezequiel.addresses.application.AddressController.createAddress(com.ezequiel.addresses.application.AddressRequest): [Field error in object 'addressRequest' on field 'zipcode': rejected value [null]; codes [NotEmpty.addressRequest.zipcode,NotEmpty.zipcode,NotEmpty.java.lang.String,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [addressRequest.zipcode,zipcode]; arguments []; default message [zipcode]]; default message [não deve estar vazio]] ]
+2021-06-15 08:23:29.328  WARN 9676 --- [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<?> com.ezequiel.addresses.application.AddressController.createAddress(com.ezequiel.addresses.application.AddressRequest): [Field error in object 'addressRequest' on field 'zipcode': rejected value [null]; codes [NotEmpty.addressRequest.zipcode,NotEmpty.zipcode,NotEmpty.java.lang.String,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [addressRequest.zipcode,zipcode]; arguments []; default message [zipcode]]; default message [não deve estar vazio]] ]
+2021-06-15 09:44:44.880  INFO 19584 --- [main] c.e.addresses.AdressesApplication        : Starting AdressesApplication using Java 1.8.0_201-1-ojdkbuild on LAPTOP-RSGLUIAP with PID 19584 (D:\Estudos\Spring\Treinamento Ezequiel\addresses\target\classes started by paulo in D:\Estudos\Spring\Treinamento Ezequiel\addresses)
+2021-06-15 09:44:44.885  INFO 19584 --- [main] c.e.addresses.AdressesApplication        : No active profile set, falling back to default profiles: default
+2021-06-15 09:44:45.957  INFO 19584 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-15 09:44:46.038  INFO 19584 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 68 ms. Found 1 JPA repository interfaces.
+2021-06-15 09:44:47.051  INFO 19584 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-06-15 09:44:47.066  INFO 19584 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-15 09:44:47.067  INFO 19584 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-15 09:44:47.165  INFO 19584 --- [main] o.a.c.c.C.[.[.[/addresses-api]           : Initializing Spring embedded WebApplicationContext
+2021-06-15 09:44:47.166  INFO 19584 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2204 ms
+2021-06-15 09:44:47.475  INFO 19584 --- [main] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 7.7.3 by Redgate
+2021-06-15 09:44:47.648  INFO 19584 --- [main] o.f.c.i.database.base.DatabaseType       : Database: jdbc:postgresql://localhost:5432/addresses (PostgreSQL 12.3)
+2021-06-15 09:44:47.703  INFO 19584 --- [main] o.f.core.internal.command.DbValidate     : Successfully validated 1 migration (execution time 00:00.030s)
+2021-06-15 09:44:47.712  INFO 19584 --- [main] o.f.core.internal.command.DbMigrate      : Current version of schema "public": 1.0.0.1
+2021-06-15 09:44:47.712  INFO 19584 --- [main] o.f.core.internal.command.DbMigrate      : Schema "public" is up to date. No migration necessary.
+2021-06-15 09:44:47.732  INFO 19584 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-06-15 09:44:47.896  INFO 19584 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-06-15 09:44:47.994  INFO 19584 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-15 09:44:48.071  INFO 19584 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-06-15 09:44:48.253  INFO 19584 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-15 09:44:48.387  INFO 19584 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2021-06-15 09:44:49.010  INFO 19584 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-15 09:44:49.019  INFO 19584 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-15 09:44:49.761  WARN 19584 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-15 09:44:50.502  INFO 19584 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/addresses-api'
+2021-06-15 09:44:50.518  INFO 19584 --- [main] c.e.addresses.AdressesApplication        : Started AdressesApplication in 6.349 seconds (JVM running for 7.396)
+2021-06-15 10:02:41.033  INFO 11656 --- [main] c.e.addresses.AdressesApplication        : Starting AdressesApplication using Java 1.8.0_201-1-ojdkbuild on LAPTOP-RSGLUIAP with PID 11656 (D:\Estudos\Spring\Treinamento Ezequiel\addresses\target\classes started by paulo in D:\Estudos\Spring\Treinamento Ezequiel\addresses)
+2021-06-15 10:02:41.036  INFO 11656 --- [main] c.e.addresses.AdressesApplication        : No active profile set, falling back to default profiles: default
+2021-06-15 10:02:41.707  INFO 11656 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-15 10:02:41.762  INFO 11656 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 47 ms. Found 1 JPA repository interfaces.
+2021-06-15 10:02:42.419  INFO 11656 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-06-15 10:02:42.428  INFO 11656 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-15 10:02:42.428  INFO 11656 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-15 10:02:42.512  INFO 11656 --- [main] o.a.c.c.C.[.[.[/addresses-api]           : Initializing Spring embedded WebApplicationContext
+2021-06-15 10:02:42.512  INFO 11656 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1427 ms
+2021-06-15 10:02:42.718  INFO 11656 --- [main] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 7.7.3 by Redgate
+2021-06-15 10:02:42.810  INFO 11656 --- [main] o.f.c.i.database.base.DatabaseType       : Database: jdbc:postgresql://localhost:5432/addresses (PostgreSQL 12.3)
+2021-06-15 10:02:42.837  INFO 11656 --- [main] o.f.core.internal.command.DbValidate     : Successfully validated 1 migration (execution time 00:00.014s)
+2021-06-15 10:02:42.842  INFO 11656 --- [main] o.f.core.internal.command.DbMigrate      : Current version of schema "public": 1.0.0.1
+2021-06-15 10:02:42.842  INFO 11656 --- [main] o.f.core.internal.command.DbMigrate      : Schema "public" is up to date. No migration necessary.
+2021-06-15 10:02:42.853  INFO 11656 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-06-15 10:02:42.887  INFO 11656 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-06-15 10:02:42.962  INFO 11656 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-15 10:02:43.020  INFO 11656 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-06-15 10:02:43.179  INFO 11656 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-15 10:02:43.301  INFO 11656 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2021-06-15 10:02:43.870  INFO 11656 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-15 10:02:43.879  INFO 11656 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-15 10:02:44.510  WARN 11656 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-15 10:02:45.382  INFO 11656 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@445058e8, org.springframework.security.web.context.SecurityContextPersistenceFilter@26d73519, org.springframework.security.web.header.HeaderWriterFilter@22cd8ec2, org.springframework.security.web.authentication.logout.LogoutFilter@3a4f8e8a, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@70022d44, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@40538370, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@340c57e0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5d5574c7, org.springframework.security.web.session.SessionManagementFilter@76ffc17c, org.springframework.security.web.access.ExceptionTranslationFilter@629cbb1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5d3b6585]
+2021-06-15 10:02:45.447  INFO 11656 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/addresses-api'
+2021-06-15 10:02:45.457  INFO 11656 --- [main] c.e.addresses.AdressesApplication        : Started AdressesApplication in 4.87 seconds (JVM running for 5.381)
+2021-06-15 10:02:53.592  INFO 11656 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/addresses-api]           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-15 10:02:53.592  INFO 11656 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-15 10:02:53.593  INFO 11656 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-06-15 10:03:26.074  INFO 3232 --- [main] c.e.addresses.AdressesApplication        : Starting AdressesApplication using Java 1.8.0_201-1-ojdkbuild on LAPTOP-RSGLUIAP with PID 3232 (D:\Estudos\Spring\Treinamento Ezequiel\addresses\target\classes started by paulo in D:\Estudos\Spring\Treinamento Ezequiel\addresses)
+2021-06-15 10:03:26.077  INFO 3232 --- [main] c.e.addresses.AdressesApplication        : No active profile set, falling back to default profiles: default
+2021-06-15 10:03:26.797  INFO 3232 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-15 10:03:26.850  INFO 3232 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 42 ms. Found 1 JPA repository interfaces.
+2021-06-15 10:03:27.631  INFO 3232 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-06-15 10:03:27.642  INFO 3232 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-15 10:03:27.643  INFO 3232 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-15 10:03:27.815  INFO 3232 --- [main] o.a.c.c.C.[.[.[/addresses-api]           : Initializing Spring embedded WebApplicationContext
+2021-06-15 10:03:27.816  INFO 3232 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1665 ms
+2021-06-15 10:03:28.007  INFO 3232 --- [main] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 7.7.3 by Redgate
+2021-06-15 10:03:28.120  INFO 3232 --- [main] o.f.c.i.database.base.DatabaseType       : Database: jdbc:postgresql://localhost:5432/addresses (PostgreSQL 12.3)
+2021-06-15 10:03:28.152  INFO 3232 --- [main] o.f.core.internal.command.DbValidate     : Successfully validated 1 migration (execution time 00:00.016s)
+2021-06-15 10:03:28.158  INFO 3232 --- [main] o.f.core.internal.command.DbMigrate      : Current version of schema "public": 1.0.0.1
+2021-06-15 10:03:28.159  INFO 3232 --- [main] o.f.core.internal.command.DbMigrate      : Schema "public" is up to date. No migration necessary.
+2021-06-15 10:03:28.172  INFO 3232 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-06-15 10:03:28.322  INFO 3232 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-06-15 10:03:28.394  INFO 3232 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-15 10:03:28.456  INFO 3232 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-06-15 10:03:28.611  INFO 3232 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-15 10:03:28.750  INFO 3232 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2021-06-15 10:03:29.461  INFO 3232 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-15 10:03:29.472  INFO 3232 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-15 10:03:30.478  WARN 3232 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-15 10:03:34.303  INFO 3232 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1aebe759, org.springframework.security.web.context.SecurityContextPersistenceFilter@2e96489b, org.springframework.security.web.header.HeaderWriterFilter@1c571162, org.springframework.security.web.authentication.logout.LogoutFilter@7a7bd9a8, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@3ca9d3b2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@24ac87a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3f22ce2a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6fd37997, org.springframework.security.web.session.SessionManagementFilter@48a38a12, org.springframework.security.web.access.ExceptionTranslationFilter@2e03bb74, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3f5e64c9]
+2021-06-15 10:03:34.358  INFO 3232 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/addresses-api'
+2021-06-15 10:03:34.366  INFO 3232 --- [main] c.e.addresses.AdressesApplication        : Started AdressesApplication in 8.792 seconds (JVM running for 9.305)
+2021-06-15 10:03:40.035  INFO 3232 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/addresses-api]           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-15 10:03:40.036  INFO 3232 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-15 10:03:40.037  INFO 3232 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-06-15 10:23:48.909  INFO 3232 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-06-15 10:23:48.911  INFO 3232 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-06-15 10:23:48.913  INFO 3232 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
